@@ -12,6 +12,7 @@ Quartus prime
 
 **SISO shift Register**
 
+
 A Serial-In Serial-Out shift register is a sequential logic circuit that allows data to be shifted in and out one bit at a time in a serial manner. It consists of a cascade of flip-flops connected in series, forming a chain. The input data is applied to the first flip-flop in the chain, and as the clock pulses, the data propagates through the flip-flops, ultimately appearing at the output.
 
 The logic circuit provided below demonstrates a serial-in serial-out (SISO) shift register. It comprises four D flip-flops that are interconnected in a sequential manner. These flip-flops operate synchronously with one another, as they all receive the same clock signal.
@@ -24,6 +25,7 @@ The synchronous nature of the flip-flops ensures that the shifting of data occur
 Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and an output (Q). The D input represents the data to be loaded into the flip-flop, while the CLK input is connected to the common clock signal. The output (Q) of each flip-flop is connected to the D input of the next flip-flop, forming a cascade.
 
 **Procedure**
+
 1.Type the Verilog program in Quartus Prime to implement the 4-bit Serial-In Serial-Out (SISO) Shift Register.
 
 2.Compile and run the program to ensure the design is error-free.
@@ -36,7 +38,6 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
 
 **PROGRAM**
 ~~~python
-
 module exp5(
     input clk,    
     input reset,
@@ -55,16 +56,17 @@ module exp5(
         end
     end
 endmodule
-
 ~~~
-
 Developed By : REVATHI.S
 
 Register Number : 212224230228
 
+
+
 **RTL LOGIC FOR SISO Shift Register**
 
 ![image](https://github.com/user-attachments/assets/f9bede2a-5b7a-4b56-b8da-d991ed77f499)
+
 
 
 **TIMING DIGRAMS FOR SISO Shift Register**
